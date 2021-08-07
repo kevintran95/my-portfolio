@@ -1,22 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 :root {
     --grey: rgba(128, 128, 128, 0.527);
     --lightblue: rgb(45, 57, 221);
     --white: white;
+    --font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }  
-
-
-
-
 
 body {
     background-color: var(--grey) ;
 }
 
 .header {
+    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--lightblue);
-    padding: 20px;
+    
     color: var(--white);
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 50px;
 }
 
 .header div {
@@ -25,4 +34,25 @@ body {
     float: right;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
+}
+
+a {
+    font-family: var(--font);
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-style: solid;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+p {
+    font-family: var(--font);
+    font-size: 15x;
 }
