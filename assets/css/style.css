@@ -1,0 +1,28 @@
+:root {
+    --grey: rgba(128, 128, 128, 0.527);
+    --lightblue: rgb(45, 57, 221);
+    --white: white;
+}  
+
+
+
+
+
+body {
+    background-color: var(--grey) ;
+}
+
+.header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--lightblue);
+    padding: 20px;
+    color: var(--white);
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
