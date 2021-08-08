@@ -15,6 +15,28 @@ body {
     background-color: var(--grey) ;
 }
 
+.hero {
+    height: 700px;
+    width: 100%;
+    margin-bottom: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url("../images/city-lights.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    color: var(--white);
+    top: 30%;
+    left: 25%;
+    font-size: 50px;
+
+}
+/* LINE UP THE ABOUT ME AND YOUR PARAGRAPH!*/
+
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -31,11 +53,16 @@ body {
     width: 50%;
     height: 50px;
     padding-top: 15px;
-    margin-left: 100px;
     float: right;
+    margin-left: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
 }
+
+ul {
+    float: right;
+}
+
 
 ul li a {
     font-family: var(--font);
@@ -55,16 +82,27 @@ ul li {
     line-height: 50px;
 }
 
-p {
-    font-family: var(--font);
-    font-size: 15x;
+h2 {
+    font-size: 40px;
+    margin-left: 17%;
+    color: var(--white);
+   position: relative;
 }
 
-.city-lights {
-    height: 650px;
-    width: 100%;
-    margin-bottom: 0px;
-    background-image: url("../images/city-lights.jpg");
-    background-size: cover;
-    background-position: center;
+p {
+    font-family: var(--font);
+    font-size: 20px;
+    padding: 10px;
+    color: var(--white);
+    margin-left: 30%;
 }
+
+img {
+    width: 800px;
+    length: 800px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: 30%;
+}
+
