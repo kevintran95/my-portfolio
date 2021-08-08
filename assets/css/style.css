@@ -19,40 +19,52 @@ body {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--lightblue);
-    
     color: var(--white);
 }
 
-header h1 {
+.header h1 {
     display: inline-block;
-    font-size: 50px;
+    font-size: 40px;
 }
 
-.header div {
+.header nav {
+    width: 50%;
+    height: 50px;
     padding-top: 15px;
-    margin-right: 20px;
+    margin-left: 100px;
     float: right;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
 }
 
-a {
+ul li a {
     font-family: var(--font);
-    text-decoration: underline;
-    text-decoration-color: white;
-    text-decoration-style: solid;
+    text-decoration: none;
+    display: flex;
+    padding: 0 20px;
+    color: var(--white); 
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+ul li {
+    list-style: none;
     display: inline-block;
-    margin: 20px;
+    line-height: 50px;
 }
 
 p {
     font-family: var(--font);
     font-size: 15x;
+}
+
+.city-lights {
+    height: 650px;
+    width: 100%;
+    margin-bottom: 0px;
+    background-image: url("../images/city-lights.jpg");
+    background-size: cover;
+    background-position: center;
 }
