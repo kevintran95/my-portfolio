@@ -5,7 +5,7 @@
 }
 
 :root {
-    --grey: rgba(128, 128, 128, 0.527);
+    --grey: rgba(138, 137, 137, 0.979);
     --lightblue: rgb(45, 57, 221);
     --white: white;
     --font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,7 +39,7 @@ body {
 
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--font);
     background-color: var(--lightblue);
     color: var(--white);
 }
@@ -51,11 +51,11 @@ body {
 
 .header nav {
     width: 50%;
-    height: 50px;
+    height: 80px;
     padding-top: 15px;
     float: right;
     margin-left: 100px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--font);
     font-size: 30px;
 }
 
@@ -98,11 +98,14 @@ p {
 }
 
 img {
-    width: 800px;
-    length: 800px;
+    width: 500px;
+    height: 300px;
     padding: 5px;
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-left: 30%;
 }
 
+img :hover {
+    background-color: yellow;
+}
