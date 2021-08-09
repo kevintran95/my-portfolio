@@ -84,7 +84,7 @@ ul li {
 
 h2 {
     font-size: 40px;
-    margin-left: 17%;
+    margin-left: 5%;
     color: var(--white);
    position: relative;
 }
@@ -94,18 +94,44 @@ p {
     font-size: 20px;
     padding: 10px;
     color: var(--white);
-    margin-left: 30%;
+    margin-left: 15%;
+    line-height: 2;
 }
 
 img {
     width: 500px;
     height: 300px;
     padding: 5px;
-    border: 1px solid #ddd;
+    opacity: 0.8;
+    border: 2px;
+    border-color: white;
     border-radius: 5px;
-    margin-left: 30%;
+    margin-left: 15%;
 }
 
-img :hover {
+img:hover {
     background-color: yellow;
+    opacity: 1;
+}
+
+.container {
+    position: relative;
+}
+.box-model {
+    position: absolute;
+    bottom: 20px;
+    height: 40px;
+    width: 10px;
+    left: 50px;
+    background-color: rgb(66, 135, 226);
+    color: white;
+    padding-left: 2%;
+    padding-right: 5%;
+    margin-left: 12.6%;
+    margin-bottom: 5%;
+}
+
+h4 { 
+    text-decoration: underline;
+    text-decoration-style: solid;
 }
