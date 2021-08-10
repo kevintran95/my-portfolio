@@ -106,7 +106,7 @@ img {
     border: 2px;
     border-color: white;
     border-radius: 5px;
-    margin-left: 15%;
+    /*margin was 15%*/
 }
 
 img:hover {
@@ -115,7 +115,12 @@ img:hover {
 }
 
 .container {
+    display: flex;
     position: relative;
+    width: 100%;       
+    padding-left: 290px;
+    
+    
 }
 .box-model {
     position: absolute;
@@ -134,4 +139,11 @@ img:hover {
 h4 { 
     text-decoration: underline;
     text-decoration-style: solid;
+}
+
+address {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
 }
