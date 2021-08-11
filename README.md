@@ -13,4 +13,8 @@ w3school.com
 Kevin Tran
 
 ## Screenshots
-<img src="assets/images/ScreenShot1" width="100" height="100">
+![ScreenShot1](https://user-images.githubusercontent.com/87213793/128972628-4cd56bb7-3a9e-43f4-8e13-3c062553e997.png)
+
+
+## Links
+https://kevintran95.github.io/my-portfolio/
