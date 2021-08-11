@@ -34,8 +34,6 @@ body {
     font-size: 50px;
 
 }
-/* LINE UP THE ABOUT ME AND YOUR PARAGRAPH!*/
-
 
 .header {
     padding: 20px;
@@ -89,7 +87,8 @@ h2 {
    position: relative;
 }
 
-p {
+
+.bio {
     font-family: var(--font);
     font-size: 20px;
     padding: 10px;
@@ -97,7 +96,6 @@ p {
     margin-left: 15%;
     line-height: 2;
 }
-
 img {
     width: 500px;
     height: 300px;
@@ -119,11 +117,11 @@ img:hover {
     position: relative;
     width: 100%;       
     padding-left: 290px;
-    
+    flex-wrap: wrap;
     
 }
 .box-model {
-    position: absolute;
+    position: relative;
     bottom: 20px;
     height: 40px;
     width: 10px;
@@ -132,8 +130,9 @@ img:hover {
     color: white;
     padding-left: 2%;
     padding-right: 5%;
-    margin-left: 12.6%;
+    margin-left: 12.75%;
     margin-bottom: 5%;
+    flex-wrap: wrap;
 }
 
 h4 { 
@@ -146,4 +145,13 @@ address {
     justify-content: space-around;
     align-items: center;
     font-size: 25px;
+    margin-left: 10%;;
+}
+
+p {
+    font-family: var(--font);
+    font-size: 20px;
+    color: var(--white);
+     
+    
 }
