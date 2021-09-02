@@ -16,4 +16,5 @@ Kevin Tran (818-913-3157)
 
 
 ## Links
-https://kevintran95.github.io/my-portfolio/
+https://github.com/kevintran95/my-portfolio - Github site
+https://kevintran95.github.io/my-portfolio/ - Launched site
