@@ -40,6 +40,7 @@ body {
     top: 30%;
     left: 25%;
     font-size: 50px;
+   
 
 }
 
@@ -164,11 +165,6 @@ h2 {
     margin-left: 12.75%;
     margin-bottom: 5%;
     flex-wrap: wrap;
-}
-
-h4 { 
-    text-decoration: underline;
-    text-decoration-style: solid;
 }
 
 address {
