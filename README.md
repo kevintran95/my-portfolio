@@ -11,7 +11,8 @@ The page contains a short about me section which will give the viewer a short di
 - Kevin Tran (818-913-3157)
 
 ## Screenshots
-![ScreenShot1](https://user-images.githubusercontent.com/87213793/128972628-4cd56bb7-3a9e-43f4-8e13-3c062553e997.png)
+![Screen Shot 2021-10-03 at 11 18 57 PM](https://user-images.githubusercontent.com/87213793/135802791-232ebdf4-da31-4913-bf09-5c130568daa3.png)
+
 ![Screen Shot 2021-10-03 at 11 12 54 PM](https://user-images.githubusercontent.com/87213793/135802287-2634961c-7558-4535-bdda-86ab4f10c073.png)
 
 
