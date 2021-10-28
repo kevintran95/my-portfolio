@@ -2,7 +2,7 @@ body{margin-top:20px;}
 /* About Me 
 ---------------------*/
 .avatar {
-    width: 75%;
+    width: 50%;
 }
 @media (max-width: 991px) {
   .about-text {
@@ -146,3 +146,11 @@ body{margin-top:20px;}
     color: #fe4f6c;
 }
 
+/* ----------------------------------------- Projects --------------------------------------------------*/
+.card-container {
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
