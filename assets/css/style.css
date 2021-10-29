@@ -145,6 +145,8 @@
 }
 
 /* ----------------------------------------- Projects --------------------------------------------------*/
+
+
 .card-container {
     display: flex;
     flex: wrap;
@@ -152,3 +154,11 @@
     justify-content: space-between;
     margin: 20px;
 }
+
+.card:hover {
+  transform: scale(1.2);
+  z-index: 1;
+  transition: transform .2s;
+  box-shadow: 0 0 11px;
+}
+
