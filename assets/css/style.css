@@ -1,4 +1,4 @@
-/* -----------------------------------------About Me -----------------------------------------*/
+/* ----------------------------------------- About Me -----------------------------------------*/
 .avatar {
     width: 50%;
 }
@@ -162,3 +162,24 @@
   box-shadow: 0 0 11px;
 }
 
+.projects-body {
+  background-color: #ebf4fa;
+}
+
+@media (max-width: 767px) {
+  .card-container {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    justify-content: start;
+  }
+}
+
+
+
+/* ---------------------------------------- Navbar and headings -------------------------------------------- */
+
+h2 {
+  margin: 20px;
+  text-decoration: underline;
+}
