@@ -183,3 +183,14 @@ h2 {
   margin: 20px;
   text-decoration: underline;
 }
+
+address {
+  margin: 20px;
+}
+
+address {
+  display: flex;
+  flex: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
