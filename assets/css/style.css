@@ -226,3 +226,30 @@ address {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+@media (max-width: 767px) {
+  .frontEnd-projects {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    justify-content: start;
+  }
+}
+
+@media (max-width: 767px) {
+  .backend-container  {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    justify-content: start;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullstack-container {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    justify-content: start;
+  }
+}
