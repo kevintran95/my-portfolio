@@ -212,3 +212,17 @@ address {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+.backend-container {
+  display: flex;
+  flex: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.fullstack-container {
+  display: flex;
+  flex: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

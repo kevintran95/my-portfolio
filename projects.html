@@ -1,225 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Link to Bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <!-- Link to CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>My Portfolio</title>
-  </head>
 
-  <body class="projects-body">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Welcome</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Contact</a>
-            </li>
-          </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Link to Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>My Portfolio</title>
+</head>
+
+<body class="projects-body">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Welcome</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="projects-container">
+    <h2>Front End</h2>
+    <div class="frontEnd-projects">
+      <div class="card" style="width: 18rem">
+        <img src="assets/images/weather-dash.png" class="card-img-top" alt="weatherDash" />
+        <div class="card-body">
+          <h5 class="card-title">Weather Dashboard</h5>
+          <p class="card-text">
+            A simple weather dashboard, allowing users to choose/save a city
+            and view weather for the next 5-days.
+          </p>
+          <a href="https://kevintran95.github.io/weather-dashboard/" target="_blank" class="btn btn-primary">View
+            Weather Dashboard</a>
         </div>
       </div>
-    </nav>
-    <div class="projects-container">
-      <h2>Front End</h2>
-      <div class="frontEnd-projects">
-        <div class="card" style="width: 18rem">
-          <img
-            src="assets/images/weather-dash.png"
-            class="card-img-top"
-            alt="weatherDash"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Weather Dashboard</h5>
-            <p class="card-text">
-              A simple weather dashboard, allowing users to choose/save a city
-              and view weather for the next 5-days.
-            </p>
-            <a
-              href="https://kevintran95.github.io/weather-dashboard/"
-              target="_blank"
-              class="btn btn-primary"
-              >View Weather Dashboard</a
-            >
-          </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="assets/images/notetaker.png"
-            class="card-img-top"
-            alt="noteTaker"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Note Taker</h5>
-            <p class="card-text">
-              Web application that allows a user to create a notes and save them
-              for later use.
-            </p>
-            <a
-              href="https://glacial-thicket-94833.herokuapp.com"
-              target="_blank"
-              class="btn btn-primary"
-              >View Note Taker</a
-            >
-          </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="assets/images/code-quiz.png"
-            class="card-img-top"
-            alt="codeQuiz"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Code Quiz</h5>
-            <p class="card-text">
-              Code quiz in which code questions are displayed. Users will lose
-              time with each incorrect answer.
-            </p>
-            <a
-              href="https://kevintran95.github.io/code-quiz/"
-              target="_blank"
-              class="btn btn-primary"
-              >View Code Quiz</a
-            >
-          </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="assets/images/The-degenerates-screenshot.png"
-            class="card-img-top"
-            alt="theDegenerate"
-          />
-          <div class="card-body">
-            <h5 class="card-title">The Degenerate</h5>
-            <p class="card-text">
-              This web application allows a user to choose a sport and view live
-              games as well as lets users place bets.
-            </p>
-            <a
-              href="https://syackzan.github.io/The-Degenerate/"
-              target="_blank"
-              class="btn btn-primary"
-              >View The Degenerate</a
-            >
-          </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="assets/images/HoriseonScreenshot.png"
-            class="card-img-top"
-            alt="HoriseonScreenshot"
-          />
-          <div class="card-body">
-            <h5 class="card-title">The Horiseon Project</h5>
-            <p class="card-text">
-              Code refractor project in which I needed to clean up starter code
-              that was given beforehand
-            </p>
-            <a
-              href="https://kevintran95.github.io/code-refractor/"
-              target="_blank"
-              class="btn btn-primary"
-              >View The Horiseon Project</a
-            >
-          </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img
-            src="assets/images/dayPlanner.png"
-            class="card-img-top"
-            alt="day planner"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Day Planner</h5>
-            <p class="card-text">
-              Quick little day planner allowing users to add a todo list with
-              the proper time.
-            </p>
-            <a
-              href="https://kevintran95.github.io/day-planner/"
-              target="_blank"
-              class="btn btn-primary"
-              >View Day planner</a
-            >
-          </div>
+      <div class="card" style="width: 18rem">
+        <img src="assets/images/notetaker.png" class="card-img-top" alt="noteTaker" />
+        <div class="card-body">
+          <h5 class="card-title">Note Taker</h5>
+          <p class="card-text">
+            Web application that allows a user to create a notes and save them
+            for later use.
+          </p>
+          <a href="https://glacial-thicket-94833.herokuapp.com" target="_blank" class="btn btn-primary">View Note
+            Taker</a>
         </div>
       </div>
-      <h2>Back End</h2>
+      <div class="card" style="width: 18rem">
+        <img src="assets/images/code-quiz.png" class="card-img-top" alt="codeQuiz" />
+        <div class="card-body">
+          <h5 class="card-title">Code Quiz</h5>
+          <p class="card-text">
+            Code quiz in which code questions are displayed. Users will lose
+            time with each incorrect answer.
+          </p>
+          <a href="https://kevintran95.github.io/code-quiz/" target="_blank" class="btn btn-primary">View Code Quiz</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="assets/images/The-degenerates-screenshot.png" class="card-img-top" alt="theDegenerate" />
+        <div class="card-body">
+          <h5 class="card-title">The Degenerate</h5>
+          <p class="card-text">
+            This web application allows a user to choose a sport and view live
+            games as well as lets users place bets.
+          </p>
+          <a href="https://syackzan.github.io/The-Degenerate/" target="_blank" class="btn btn-primary">View The
+            Degenerate</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="assets/images/HoriseonScreenshot.png" class="card-img-top" alt="HoriseonScreenshot" />
+        <div class="card-body">
+          <h5 class="card-title">The Horiseon Project</h5>
+          <p class="card-text">
+            Code refractor project in which I needed to clean up starter code
+            that was given beforehand
+          </p>
+          <a href="https://kevintran95.github.io/code-refractor/" target="_blank" class="btn btn-primary">View The
+            Horiseon Project</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="assets/images/dayPlanner.png" class="card-img-top" alt="day planner" />
+        <div class="card-body">
+          <h5 class="card-title">Day Planner</h5>
+          <p class="card-text">
+            Quick little day planner allowing users to add a todo list with
+            the proper time.
+          </p>
+          <a href="https://kevintran95.github.io/day-planner/" target="_blank" class="btn btn-primary">View Day
+            planner</a>
+        </div>
+      </div>
+    </div>
+    <h2>Back End</h2>
+    <div class="backend-container">
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="assets/images/ecomerce-backend.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Ecommerce Project</h5>
-          <p class="card-text">Backend application allowing users to view prices of items and add new items as well as edit their prices</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class="card-text">Backend application allowing users to view prices of items and add new items as well as
+            edit their prices</p>
+          <a href="#" class="btn btn-primary">View Ecommerce Project</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="assets/images/team-profile-gen-frontend.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Team Profile Generator</h5>
-          <p class="card-text">Backend application allowing managers to create team profiles and assign each worker with specific roles</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class="card-text">Backend application allowing managers to create team profiles and assign each worker with
+            specific roles</p>
+          <a href="#" class="btn btn-primary">View Team Profile Generator</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="assets/images/README-generator.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">ReadMe Generator</h5>
-          <p class="card-text">Application allowing users to quickly make a clean and concise README file for their projects</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class="card-text">Application allowing users to quickly make a clean and concise README file for their
+            projects</p>
+          <a href="#" class="btn btn-primary">View READMe Generator</a>
         </div>
       </div>
-      <h2>Full-Stack Applications</h2>
+    </div>
+    <h2>Full-Stack Applications</h2>
+    <div class="fullstack-container">
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="assets/images/sweetapples.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Sweet Apples</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class="card-text">Sweet Apples was designed as a web application to allow users to
+            view/post reviews to some of their favorite video games.</p>
+          <a href="#" class="btn btn-primary">View Sweet Apples</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="assets/images/Techblog-home.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">The Tech Blog</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">View The Tech Blog</a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">A Good Time</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">View A Good Time</a>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
