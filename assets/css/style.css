@@ -195,6 +195,11 @@ address {
   justify-content: space-evenly;
 }
 
+.navBtn {
+  float: left;
+  align-items: flex-start;
+}
+
 @media (max-width: 767px) {
   address {
     display: flex;
@@ -206,7 +211,7 @@ address {
 
 /* ----------------------------------------------- Projects  page --------------------------------------------*/
 
-.frontEnd-projects {
+.frontend-projects {
   display: flex;
   flex: wrap;
   flex-direction: row;
@@ -228,7 +233,7 @@ address {
 }
 
 @media (max-width: 767px) {
-  .frontEnd-projects {
+  .frontend-projects {
     display: flex;
     flex: wrap;
     flex-direction: column;
@@ -253,3 +258,4 @@ address {
     justify-content: start;
   }
 }
+
